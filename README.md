@@ -2,7 +2,7 @@
 
 A robust and scalable backend service for a ride-sharing application, built with Spring Boot and MongoDB. This project implements secure authentication, real-time ride management, and role-based access control for passengers and drivers.
 
-## 🚀 Key Features
+## Key Features
 
 *   **Secure Authentication**: JWT-based stateless authentication with BCrypt password hashing.
 *   **Role-Based Access**: Distinct functionality for Passengers (`ROLE_USER`) and Drivers (`ROLE_DRIVER`).
@@ -10,7 +10,7 @@ A robust and scalable backend service for a ride-sharing application, built with
 *   **Data Validation**: Robust input validation to ensure data integrity.
 *   **Scalable Architecture**: Built on a clean, service-oriented architecture using Spring Boot best practices.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Framework**: Spring Boot 3+
 *   **Database**: MongoDB
@@ -18,7 +18,7 @@ A robust and scalable backend service for a ride-sharing application, built with
 *   **Build Tool**: Maven
 *   **Language**: Java 17+
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 1.  **Prerequisites**:
     *   Java Development Kit (JDK) 17 or higher
@@ -39,7 +39,7 @@ A robust and scalable backend service for a ride-sharing application, built with
     ./mvnw spring-boot:run
     ```
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Authentication
 | Method | Endpoint | Description |
@@ -64,7 +64,7 @@ A robust and scalable backend service for a ride-sharing application, built with
 | :--- | :--- | :--- |
 | `POST` | `/api/v1/rides/{id}/complete` | Mark a trip as completed |
 
-## 🧪 Testing
+## Testing
 
 You can test the APIs using **Postman** or **cURL**.
 
@@ -82,7 +82,7 @@ curl -X POST http://localhost:8081/api/auth/login \
 -d '{"username":"john_doe","password":"password123"}'
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 com.ridehub.backend
